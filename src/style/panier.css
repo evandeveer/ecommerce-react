@@ -1,0 +1,60 @@
+.panier-vide {
+  padding: 20px;
+  text-align: center;
+}
+
+.panier-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.panier-list {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+  margin-bottom: 30px;
+}
+
+.panier-item {
+  display: flex;
+  align-items: center;
+  padding: 15px;
+}
+
+.panier-image {
+  width: 80px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.panier-info {
+  flex: 1;
+  margin-left: 15px;
+}
+
+.panier-info h5 {
+  font-size: 16px;
+  margin-bottom: 5px;
+}
+
+.panier-price {
+  font-weight: bold;
+  color: #2c5aa0;
+  margin: 0;
+}
+
+.panier-actions {
+  margin-right: 20px;
+  text-align: center;
+  font-size: 14px;
+}
+
+.panier-total-item {
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+.panier-total {
+  text-align: center;
+}
