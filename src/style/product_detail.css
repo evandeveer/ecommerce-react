@@ -1,0 +1,42 @@
+.product-container {
+  padding: 20px;
+  max-width: 800px;
+  margin: 0 auto;
+}
+
+.product-content {
+  display: flex;
+  gap: 30px;
+}
+
+.product-image {
+  width: 50%;
+  height: 400px;
+  object-fit: contain;
+}
+
+.product-info {
+  width: 50%;
+}
+
+.product-price {
+  color: #2c5aa0;
+}
+
+.product-category {
+  display: inline-block;
+  background-color: #f0f0f0;
+  padding: 5px 10px;
+  border-radius: 15px;
+  font-size: 14px;
+  margin-bottom: 15px;
+}
+
+.product-rating {
+  margin-bottom: 15px;
+  font-size: 14px;
+}
+
+.product-rating span {
+  margin-left: 8px;
+}
