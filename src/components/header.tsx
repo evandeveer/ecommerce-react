@@ -3,8 +3,6 @@ import Button from 'react-bootstrap/Button';
 import { useNavigate } from 'react-router-dom';
 import { useCart ,} from '../hooks/useCart';
 
-
-
 function Header() {
     const navigate = useNavigate();
     const { getTotalItems } = useCart();

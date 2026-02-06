@@ -3,8 +3,10 @@ import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import { useCart } from "../hooks/useCart";
 import "../style/panier.css";
+import { useNavigate } from 'react-router-dom';
 
 function Panier() {
+  const navigate = useNavigate();
   const { cartItems, removeFromCart, getTotalPrice } = useCart();
 
   if (cartItems.length === 0) {
@@ -65,6 +67,16 @@ function Panier() {
             <h4>Total : {getTotalPrice()} €</h4>
           </Card.Body>
         </Card>
+
+        <br />
+
+        <Button
+          variant="outline-primary"
+          size="lg"
+          onClick={() => navigate('/form_commande')}
+        >
+          Passer commande
+        </Button>
       </div>
     </div>
   );

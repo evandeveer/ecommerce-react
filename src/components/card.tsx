@@ -12,7 +12,6 @@ type CardProps = {
 
 function CardsComponent({title, price, description, image, onClick}: CardProps) {
    
-   
     return (
       
         <Card onClick={onClick} style={{ width: '18rem' }}>

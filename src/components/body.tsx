@@ -5,8 +5,6 @@ import type { Product } from "../type/product.type";
 import { useNavigate } from "react-router-dom";
 
 
-
-
 export default Body
 
 

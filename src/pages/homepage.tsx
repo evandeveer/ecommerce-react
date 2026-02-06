@@ -4,8 +4,6 @@ import Body from "../components/body";
 import Header from "../components/header";
 
 
-export default HomePage
-
 function HomePage() {
 const [products,setProducts] = useState<Product[]>([]);
 const [loading,setIsLoading] = useState<boolean>(false);
@@ -39,7 +37,6 @@ const [loading,setIsLoading] = useState<boolean>(false);
         </div>
     }
 
-
     return <div>
         <Header></Header>
         <br />
@@ -49,3 +46,5 @@ const [loading,setIsLoading] = useState<boolean>(false);
 
     </div>
 }
+
+export default HomePage
